@@ -27,14 +27,14 @@
   - topojson：TopoJSONファイルを格納
 
 - ファイルを格納するフォルダは以下の通り。
-  - #[https://github.com/smartnews-smri/japan-topography/tree/main/data/constituency/geojson/s0010](data / constituency / s0010 / geojson)：市区町村のGeoJSONファイル（簡素化1％）
-  - #[https://github.com/smartnews-smri/japan-topography/tree/main/data/constituency/geojson/s0001](data / constituency / s0001 / geojson)：市区町村のGeoJSONファイル（簡素化0.1％）
-  - #[https://github.com/smartnews-smri/japan-topography/tree/main/data/constituency/topojson/s0010](data / constituency / s0010 / topojson)：市区町村のTopoJSONファイル（簡素化1％）
-  - #[https://github.com/smartnews-smri/japan-topography/tree/main/data/constituency/topojson/s0001](data / constituency / s0001 / topojson)：市区町村のTopoJSONファイル（簡素化0.1％）
-  - #[https://github.com/smartnews-smri/japan-topography/tree/main/data/municipality/geojson/s0010](data / municipality / s0010 / geojson)：選挙区のGeoJSONファイル（簡素化1％）
-  - #[https://github.com/smartnews-smri/japan-topography/tree/main/data/municipality/geojson/s0001](data / municipality / s0001 / geojson)：選挙区のGeoJSONファイル（簡素化0.1％）
-  - #[https://github.com/smartnews-smri/japan-topography/tree/main/data/municipality/topojson/s0010](data / municipality / s0010 / topojson)：選挙区のTopoJSONファイル（簡素化1％）
-  - #[https://github.com/smartnews-smri/japan-topography/tree/main/data/municipality/topojson/s0001](data / municipality / s0001 / topojson)：選挙区のTopoJSONファイル（簡素化0.1％）
+  - (data / constituency / s0010 / geojson)[https://github.com/smartnews-smri/japan-topography/tree/main/data/constituency/geojson/s0010]：市区町村のGeoJSONファイル（簡素化1％）
+  - (data / constituency / s0001 / geojson)[https://github.com/smartnews-smri/japan-topography/tree/main/data/constituency/geojson/s0001]：市区町村のGeoJSONファイル（簡素化0.1％）
+  - (data / constituency / s0010 / topojson)[https://github.com/smartnews-smri/japan-topography/tree/main/data/constituency/topojson/s0010]：市区町村のTopoJSONファイル（簡素化1％）
+  - (data / constituency / s0001 / topojson)[https://github.com/smartnews-smri/japan-topography/tree/main/data/constituency/topojson/s0001]：市区町村のTopoJSONファイル（簡素化0.1％）
+  - (data / municipality / s0010 / geojson)[https://github.com/smartnews-smri/japan-topography/tree/main/data/municipality/geojson/s0010]：選挙区のGeoJSONファイル（簡素化1％）
+  - (data / municipality / s0001 / geojson)[https://github.com/smartnews-smri/japan-topography/tree/main/data/municipality/geojson/s0001]：選挙区のGeoJSONファイル（簡素化0.1％）
+  - (data / municipality / s0010 / topojson)[https://github.com/smartnews-smri/japan-topography/tree/main/data/municipality/topojson/s0010]：選挙区のTopoJSONファイル（簡素化1％）
+  - (data / municipality / s0001 / topojson)[https://github.com/smartnews-smri/japan-topography/tree/main/data/municipality/topojson/s0001]：選挙区のTopoJSONファイル（簡素化0.1％）
 
 - その他
   - Objectsのkeyはファイル名と同じ
@@ -48,8 +48,8 @@
 
 ## 使い方
 
-- データをダウンロードして各種のデータ可視化ツール（たとえば#[https://flourish.studio/](Flourish)など）に使用できます。
-- ウェブサイト（HTML/CSS/JavaScript）で表示する場合、#[https://smartnews-smri.github.io/japan-topography/viewer/](表示サンプルページ)のソースコードを参照してください。
+- データをダウンロードして各種のデータ可視化ツール（たとえば(Flourish)[https://flourish.studio/]など）に使用できます。
+- ウェブサイト（HTML/CSS/JavaScript）で表示する場合、(表示サンプルページ)[https://smartnews-smri.github.io/japan-topography/viewer/]のソースコードを参照してください。
 
 
 
