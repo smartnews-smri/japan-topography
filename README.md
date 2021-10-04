@@ -73,8 +73,9 @@
 
 ## サンプルページ
 
-- ウェブサイトでの使用例を簡易的に示すサンプルページを公開します。
-  - https://smartnews-smri.github.io/japan-topography/viewer/
+- https://smartnews-smri.github.io/japan-topography/viewer/
+- ウェブサイトでの使用例を簡易的に示すサンプルページです。
+- ファイルの選択と表示、個別のファイルダウンロードなどが可能です。
 
 
 
