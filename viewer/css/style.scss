@@ -58,7 +58,7 @@ body {
       -webkit-appearance: none;
       -moz-appearance: none;
       appearance: none;
-      border: 1px solid #ccc;
+      border: 2px solid #ccc;
       border-radius: 20px;
       font-size: 16px;
       background-image: url(../img/icon-arrow-down.svg);
@@ -74,6 +74,15 @@ body {
       &:hover {
         cursor: pointer;
       }
+
+      &:disabled {
+        background-color: #ddd;
+      }
+    }
+
+    span.separator {
+      color: #ddd;
+      width: 40px;
     }
 
     #map-block {

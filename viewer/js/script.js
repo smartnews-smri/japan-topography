@@ -5,12 +5,19 @@ const showPrefecture = () => {
     let pref  = $("#select-prefecture").val();
     let ret = "";
 
-    if (pref === "00") {
-      if (type === "constituency") ret = "../data/constituency/topojson/s0001/senkyoku289polygon.json";
-      if (type === "municipality") ret = "../data/municipality/topojson/s0001/N03-21_210101.json";
+    if (type === "prefectures") {
+      ret = "../data/municipality/topojson/s0001/prefectures.json";
+      $("#select-prefecture").prop("disabled", "disabled");
+      $("#select-prefecture").val("00");
     } else {
-      if (type === "constituency") ret = "../data/constituency/topojson/s0010/senkyoku289polygon_" + pref + ".json";
-      if (type === "municipality") ret = "../data/municipality/topojson/s0010/N03-21_" + pref + "_210101.json";
+      $("#select-prefecture").prop("disabled", "");
+      if (pref === "00") {
+        if (type === "constituency") ret = "../data/constituency/topojson/s0001/senkyoku289polygon.json";
+        if (type === "municipality") ret = "../data/municipality/topojson/s0001/N03-21_210101.json";
+      } else {
+        if (type === "constituency") ret = "../data/constituency/topojson/s0010/senkyoku289polygon_" + pref + ".json";
+        if (type === "municipality") ret = "../data/municipality/topojson/s0010/N03-21_" + pref + "_210101.json";
+      }
     }
 
     return ret;
@@ -70,7 +77,8 @@ const showPrefecture = () => {
 
   svg.call(zoom);
 
-  $("#download-link").attr("href", filepath);
+  $("#download-geojson").attr("href", filepath.replace("topojson", "geojson"));
+  $("#download-topojson").attr("href", filepath);
 }
 
 $(function(){
