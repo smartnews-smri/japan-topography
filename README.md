@@ -56,6 +56,16 @@
 - 元のデータでは「区」単位（たとえば神奈川県横浜市緑区など）までを区分していましたが、これらをひとつにまとめた形式の全国版ファイルを追加しました。
 - ファイル末尾に「designated_city」がついたファイルが該当しますので、統計データの種類によって使い分けてご利用ください。
 
+### 都道府県別のファイルを追加（2022.03.07）
+- 市区町村・選挙区に加えて、都道府県別に地域をわけたファイルを追加しました。
+  - [GeoJSON / 簡素化1％](https://raw.githubusercontent.com/smartnews-smri/japan-topography/main/data/municipality/geojson/s0010/prefectures.json)
+  - [GeoJSON / 簡素化0.1％](https://raw.githubusercontent.com/smartnews-smri/japan-topography/main/data/municipality/geojson/s0001/prefectures.json)
+  - [TopoJSON / 簡素化1％](https://raw.githubusercontent.com/smartnews-smri/japan-topography/main/data/municipality/topojson/s0010/prefectures.json)
+  - [TopoJSON / 簡素化0.1％](https://raw.githubusercontent.com/smartnews-smri/japan-topography/main/data/municipality/topojson/s0001/prefectures.json)
+- 市区町村ファイル（国土交通省・国土数値情報）を加工したものですので、クレジット等の扱いは市区町村ファイルと同様です。
+- [表示サンプルページ](https://smartnews-smri.github.io/japan-topography/viewer/)でもセレクトボックスに「都道府県」を追加しました。
+  - ページから直接ダウンロードもできるので、ご活用ください。
+
 ## 加工内容
 
 - 境界線を1％および0.1％に簡素化
